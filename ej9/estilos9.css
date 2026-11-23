@@ -1,0 +1,16 @@
+.aviso-secundario {
+    background-color: #e9ecef;
+    opacity: 0.65; /* 35% de transparencia: visible pero con menor peso visual */
+}
+
+.icono-estado {
+    opacity: 0.5; /* 50% de transparencia en estado normal */
+}
+
+.icono-estado:hover {
+    opacity: 1.0; /* 0% de transparencia (totalmente visible) al pasar el ratón */
+}
+
+.elemento-oculto {
+    opacity: 0.0; /* Totalmente transparente / invisible */
+}

@@ -1,0 +1,28 @@
+/* Estilos comunes para dar dimensiones y visualizar los límites de cada caja */
+div {
+    width: 250px;
+    height: 150px;
+    border: 2px solid #333;
+    background-color: #f4f4f4;
+    margin-bottom: 20px;
+    padding: 10px;
+    font-family: Arial, sans-serif;
+}
+
+#caja1 {
+    background-image: url("imagenCaja1.png");
+    background-repeat: no-repeat;
+    background-position: bottom left;
+}
+
+#caja2 {
+    background-image: url("imagenCaja2.png");
+    background-repeat: no-repeat;
+    background-position: right top;
+}
+
+#caja3 {
+    background-image: url("imagenCaja3.png");
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}

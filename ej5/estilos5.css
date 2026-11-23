@@ -1,0 +1,32 @@
+/* a) */
+body {
+    font-family: Arial, Times, sans-serif;
+}
+
+/* b) */
+h1 {
+    font-family: Courier, monospace;
+    font-size: 20pt;
+    font-weight: normal;
+    text-decoration: underline;
+    text-align: center;
+}
+
+/* c) */
+h2 {
+    font-family: Verdana, sans-serif;
+    font-size: 15pt;
+    font-weight: normal;
+    color: blue;
+}
+
+/* d) */
+li {
+    font-size: 12pt;
+    font-weight: normal;
+}
+
+/* Horas en negrita */
+.horas {
+    font-weight: bold;
+}

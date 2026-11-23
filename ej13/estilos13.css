@@ -1,0 +1,99 @@
+body {
+    margin: 0;
+    padding: 75px 20px 65px 20px;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 16px;
+    color: #1f2421;
+    background-color: #f2efe9;
+}
+
+.barra-nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #2c1e16;
+    padding: 14px 20px;
+    z-index: 10;
+}
+
+.barra-nav a {
+    color: #f9f5f0;
+    text-decoration: none;
+    font-family: Verdana, sans-serif;
+    font-weight: bold;
+    margin-right: 22px;
+}
+
+.contenedor {
+    width: 96%;
+    margin: 0 auto;
+    overflow: auto;
+}
+
+.fila-secciones {
+    overflow: auto;
+    padding: 25px 0 40px 0;
+}
+
+.seccion {
+    float: left;
+    width: 42%;
+    padding: 20px;
+    border: 2px solid #2c1e16;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+.seccion h2 {
+    margin-top: 0;
+    font-size: 20px;
+    color: #7c2d12;
+}
+
+.seccion p {
+    margin-bottom: 0;
+    line-height: 1.6;
+    text-align: justify;
+}
+
+.seccion-1 {
+    position: relative;
+    top: 0;
+    left: 0;
+    background-color: #ffffff;
+    z-index: 1;
+}
+
+.seccion-2 {
+    position: relative;
+    top: 20px;
+    left: -14%;
+    background-color: #fffbeb;
+    z-index: 2;
+}
+
+.seccion-3 {
+    position: relative;
+    top: 40px;
+    left: -28%;
+    background-color: #fef3c7;
+    z-index: 3;
+}
+
+.pie-fijo {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #2c1e16;
+    color: #f9f5f0;
+    text-align: center;
+    font-family: Verdana, sans-serif;
+    font-size: 14px;
+    padding: 10px 0;
+    z-index: 10;
+}
+
+.pie-fijo p {
+    margin: 0;
+}

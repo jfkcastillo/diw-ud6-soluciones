@@ -1,0 +1,12 @@
+div {
+    overflow: auto;
+    border: 1px dashed grey; /* Para comprobar el alto de la caja */
+}
+
+a.anterior {
+    float: left;
+}
+
+a.siguiente {
+    float: right;
+}

@@ -1,0 +1,36 @@
+.titulo {
+    font-family: "Times New Roman", Times, serif;
+    font-weight: bold;
+    font-size: 1.15rem;
+}
+
+/* Separación vertical elementos */
+.lista {
+    line-height: 1.8;
+}
+
+/* Primer elemento */
+.fuente-helvetica {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 1rem;
+}
+
+/* Segundo elemento */
+.fuente-arial {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+}
+
+.tamano {
+    font-size: 1.45rem;
+}
+
+/* Tercer elemento */
+.fuente-times {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 1rem;
+}
+
+.cursiva {
+    font-style: italic;
+}

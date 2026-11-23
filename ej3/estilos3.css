@@ -1,0 +1,48 @@
+/* a) Fuente base negra, Courier, 12pt e interlineado 1.2 */
+body {
+    color: black;
+    font-family: Courier, monospace;
+    font-size: 12pt;
+    line-height: 1.2;
+}
+
+/* c) Títulos h1 de color seguro y el doble del tamaño base (24pt) */
+h1 {
+    color: navy;
+    font-size: 24pt;
+}
+
+/* d) Elementos del listado centrados y subrayados */
+.listado li {
+    text-align: center;
+    text-decoration: underline;
+}
+
+/* e) Enlace a Google: no visitado (cursiva y gris) vs. visitado (rojo, negrita, doble subrayado) */
+.enlace-google a:link {
+    font-style: italic;
+    color: gray;
+    text-decoration: none;
+}
+
+.enlace-google a:visited {
+    color: red;
+    font-weight: bold;
+    text-decoration: underline double red;
+}
+
+/* f) Fondo en cada bloque con transparencia del 0%, 30% y 50% (opacity 1.0, 0.7 y 0.5) */
+.bloque-1 {
+    background-color: lightblue;
+    opacity: 1.0; /* 0% de transparencia */
+}
+
+.bloque-2 {
+    background-color: lightgreen;
+    opacity: 0.7; /* 30% de transparencia */
+}
+
+.bloque-3 {
+    background-color: khaki;
+    opacity: 0.5; /* 50% de transparencia */
+}
